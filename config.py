@@ -45,7 +45,7 @@ def get_config():
         'ct_n_epochs': 200,  # Number of epochs for contrastive training. [200]
         'ct_lr': 2e-4,  # Learning rate to use in contrastive trianing. [2e-4]
         'ct_n_way': 5,  # Number of classes per episode in contrastive training. [5]
-        'ct_n_shot': 10,  # Number of support examples per class in prototypical network training. [10]
+        'ct_n_shot': 5,  # Number of support examples per class in prototypical network training. [5]
         'tsne_data_percentage': 0.05,  # Percentage of each class in the validation set to use in t-SNE projection. [0.05]
 
         # Transfer Learning Parameters
